@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F885FF32056286700A2E13E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F885FF22056286700A2E13E /* AppDelegate.m */; };
+		6F885FF92056286700A2E13E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F885FF72056286700A2E13E /* Main.storyboard */; };
+		6F885FFB2056286700A2E13E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F885FFA2056286700A2E13E /* Assets.xcassets */; };
+		6F885FFE2056286700A2E13E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F885FFC2056286700A2E13E /* LaunchScreen.storyboard */; };
+		6F8860012056286700A2E13E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860002056286700A2E13E /* main.m */; };
+		6F8860432056288A00A2E13E /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88600A2056288900A2E13E /* Colours.m */; };
+		6F8860442056288A00A2E13E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6F88600B2056288900A2E13E /* LICENSE */; };
+		6F8860452056288A00A2E13E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F88600C2056288900A2E13E /* README.md */; };
+		6F8860462056288A00A2E13E /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88600E2056288900A2E13E /* iflyMSC.framework */; };
+		6F8860472056288A00A2E13E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860102056288900A2E13E /* LICENSE.txt */; };
+		6F8860482056288A00A2E13E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860112056288900A2E13E /* README.md */; };
+		6F8860492056288A00A2E13E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860142056288900A2E13E /* SVIndefiniteAnimatedView.m */; };
+		6F88604A2056288A00A2E13E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860152056288900A2E13E /* SVProgressHUD.bundle */; };
+		6F88604B2056288A00A2E13E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860172056288900A2E13E /* SVProgressHUD.m */; };
+		6F88604C2056288A00A2E13E /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8860192056288900A2E13E /* libMobClickLibrary.a */; };
+		6F88604D2056288A00A2E13E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F88601D2056288900A2E13E /* Localizable.strings */; };
+		6F88604E2056288A00A2E13E /* ic_add_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860222056288900A2E13E /* ic_add_tab@2x.png */; };
+		6F88604F2056288A00A2E13E /* ic_more_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860232056288900A2E13E /* ic_more_white@2x.png */; };
+		6F8860502056288A00A2E13E /* lanch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860262056288900A2E13E /* lanch@2x.png */; };
+		6F8860512056288A00A2E13E /* micro_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860272056288900A2E13E /* micro_small@2x.png */; };
+		6F8860522056288A00A2E13E /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F8860292056288900A2E13E /* save@2x.png */; };
+		6F8860532056288A00A2E13E /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88602F2056288900A2E13E /* AppContext.m */; };
+		6F8860542056288A00A2E13E /* NSDate+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860322056288900A2E13E /* NSDate+Conversion.m */; };
+		6F8860552056288A00A2E13E /* UIColor+VNHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860342056288900A2E13E /* UIColor+VNHex.m */; };
+		6F8860562056288A00A2E13E /* VNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860362056288900A2E13E /* VNConstants.m */; };
+		6F8860572056288A00A2E13E /* NoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860392056288900A2E13E /* NoteDetailController.m */; };
+		6F8860582056288A00A2E13E /* NoteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88603B2056288900A2E13E /* NoteListCell.m */; };
+		6F8860592056288A00A2E13E /* NoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F88603D2056288900A2E13E /* NoteListController.m */; };
+		6F88605A2056288A00A2E13E /* NoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860402056288900A2E13E /* NoteManager.m */; };
+		6F88605B2056288A00A2E13E /* VNNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8860422056288900A2E13E /* VNNote.m */; };
+		6F88605E205629DE00A2E13E /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88605D205629D600A2E13E /* Contacts.framework */; };
+		6F886060205629F000A2E13E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88605F205629EA00A2E13E /* AddressBook.framework */; };
+		6F886062205629FC00A2E13E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F886061205629F600A2E13E /* AVFoundation.framework */; };
+		6F88606420562A0F00A2E13E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606320562A0900A2E13E /* CoreLocation.framework */; };
+		6F88606620562A1D00A2E13E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606520562A1600A2E13E /* QuartzCore.framework */; };
+		6F88606820562A2900A2E13E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606720562A2400A2E13E /* SystemConfiguration.framework */; };
+		6F88606A20562A4600A2E13E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606920562A3D00A2E13E /* CoreTelephony.framework */; };
+		6F88606C20562B2F00A2E13E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606B20562B2F00A2E13E /* libz.tbd */; };
+		6F88606E20562B8800A2E13E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F88606D20562B7F00A2E13E /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F885FEE2056286700A2E13E /* VoiceNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F885FF12056286700A2E13E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F885FF22056286700A2E13E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F885FF82056286700A2E13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6F885FFA2056286700A2E13E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F885FFD2056286700A2E13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F885FFF2056286700A2E13E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8860002056286700A2E13E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F8860092056288900A2E13E /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		6F88600A2056288900A2E13E /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		6F88600B2056288900A2E13E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F88600C2056288900A2E13E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F88600E2056288900A2E13E /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		6F8860102056288900A2E13E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6F8860112056288900A2E13E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6F8860132056288900A2E13E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		6F8860142056288900A2E13E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		6F8860152056288900A2E13E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		6F8860162056288900A2E13E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		6F8860172056288900A2E13E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		6F8860192056288900A2E13E /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		6F88601A2056288900A2E13E /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		6F88601B2056288900A2E13E /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		6F88601E2056288900A2E13E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F88601F2056288900A2E13E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860202056288900A2E13E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860212056288900A2E13E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860222056288900A2E13E /* ic_add_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_tab@2x.png"; sourceTree = "<group>"; };
+		6F8860232056288900A2E13E /* ic_more_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_more_white@2x.png"; sourceTree = "<group>"; };
+		6F8860242056288900A2E13E /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860252056288900A2E13E /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860262056288900A2E13E /* lanch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lanch@2x.png"; sourceTree = "<group>"; };
+		6F8860272056288900A2E13E /* micro_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro_small@2x.png"; sourceTree = "<group>"; };
+		6F8860282056288900A2E13E /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F8860292056288900A2E13E /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		6F88602A2056288900A2E13E /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6F88602B2056288900A2E13E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		6F88602E2056288900A2E13E /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		6F88602F2056288900A2E13E /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
+		6F8860312056288900A2E13E /* NSDate+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Conversion.h"; sourceTree = "<group>"; };
+		6F8860322056288900A2E13E /* NSDate+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Conversion.m"; sourceTree = "<group>"; };
+		6F8860332056288900A2E13E /* UIColor+VNHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VNHex.h"; sourceTree = "<group>"; };
+		6F8860342056288900A2E13E /* UIColor+VNHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VNHex.m"; sourceTree = "<group>"; };
+		6F8860352056288900A2E13E /* VNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNConstants.h; sourceTree = "<group>"; };
+		6F8860362056288900A2E13E /* VNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNConstants.m; sourceTree = "<group>"; };
+		6F8860382056288900A2E13E /* NoteDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailController.h; sourceTree = "<group>"; };
+		6F8860392056288900A2E13E /* NoteDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailController.m; sourceTree = "<group>"; };
+		6F88603A2056288900A2E13E /* NoteListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListCell.h; sourceTree = "<group>"; };
+		6F88603B2056288900A2E13E /* NoteListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListCell.m; sourceTree = "<group>"; };
+		6F88603C2056288900A2E13E /* NoteListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListController.h; sourceTree = "<group>"; };
+		6F88603D2056288900A2E13E /* NoteListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListController.m; sourceTree = "<group>"; };
+		6F88603F2056288900A2E13E /* NoteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteManager.h; sourceTree = "<group>"; };
+		6F8860402056288900A2E13E /* NoteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteManager.m; sourceTree = "<group>"; };
+		6F8860412056288900A2E13E /* VNNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNNote.h; sourceTree = "<group>"; };
+		6F8860422056288900A2E13E /* VNNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNNote.m; sourceTree = "<group>"; };
+		6F88605D205629D600A2E13E /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		6F88605F205629EA00A2E13E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6F886061205629F600A2E13E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F88606320562A0900A2E13E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6F88606520562A1600A2E13E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F88606720562A2400A2E13E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F88606920562A3D00A2E13E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6F88606B20562B2F00A2E13E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6F88606D20562B7F00A2E13E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F885FEB2056286700A2E13E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F88606E20562B8800A2E13E /* AudioToolbox.framework in Frameworks */,
+				6F88606A20562A4600A2E13E /* CoreTelephony.framework in Frameworks */,
+				6F88606820562A2900A2E13E /* SystemConfiguration.framework in Frameworks */,
+				6F88606620562A1D00A2E13E /* QuartzCore.framework in Frameworks */,
+				6F88606420562A0F00A2E13E /* CoreLocation.framework in Frameworks */,
+				6F886062205629FC00A2E13E /* AVFoundation.framework in Frameworks */,
+				6F886060205629F000A2E13E /* AddressBook.framework in Frameworks */,
+				6F88605E205629DE00A2E13E /* Contacts.framework in Frameworks */,
+				6F8860462056288A00A2E13E /* iflyMSC.framework in Frameworks */,
+				6F88604C2056288A00A2E13E /* libMobClickLibrary.a in Frameworks */,
+				6F88606C20562B2F00A2E13E /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F885FE52056286700A2E13E = {
+			isa = PBXGroup;
+			children = (
+				6F885FF02056286700A2E13E /* VoiceNotepad */,
+				6F885FEF2056286700A2E13E /* Products */,
+				6F88605C205629D600A2E13E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6F885FEF2056286700A2E13E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F885FEE2056286700A2E13E /* VoiceNotepad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F885FF02056286700A2E13E /* VoiceNotepad */ = {
+			isa = PBXGroup;
+			children = (
+				6F885FF12056286700A2E13E /* AppDelegate.h */,
+				6F885FF22056286700A2E13E /* AppDelegate.m */,
+				6F88602C2056288900A2E13E /* Source */,
+				6F8860072056288900A2E13E /* Library */,
+				6F88601C2056288900A2E13E /* Resource */,
+				6F88606F20562C4600A2E13E /* Supporting Files */,
+			);
+			path = VoiceNotepad;
+			sourceTree = "<group>";
+		};
+		6F8860072056288900A2E13E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860082056288900A2E13E /* Colours */,
+				6F88600D2056288900A2E13E /* IFly */,
+				6F88600F2056288900A2E13E /* SVProgressHUD */,
+				6F8860182056288900A2E13E /* Umeng */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6F8860082056288900A2E13E /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860092056288900A2E13E /* Colours.h */,
+				6F88600A2056288900A2E13E /* Colours.m */,
+				6F88600B2056288900A2E13E /* LICENSE */,
+				6F88600C2056288900A2E13E /* README.md */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		6F88600D2056288900A2E13E /* IFly */ = {
+			isa = PBXGroup;
+			children = (
+				6F88600E2056288900A2E13E /* iflyMSC.framework */,
+			);
+			path = IFly;
+			sourceTree = "<group>";
+		};
+		6F88600F2056288900A2E13E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860102056288900A2E13E /* LICENSE.txt */,
+				6F8860112056288900A2E13E /* README.md */,
+				6F8860122056288900A2E13E /* SVProgressHUD */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6F8860122056288900A2E13E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860132056288900A2E13E /* SVIndefiniteAnimatedView.h */,
+				6F8860142056288900A2E13E /* SVIndefiniteAnimatedView.m */,
+				6F8860152056288900A2E13E /* SVProgressHUD.bundle */,
+				6F8860162056288900A2E13E /* SVProgressHUD.h */,
+				6F8860172056288900A2E13E /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6F8860182056288900A2E13E /* Umeng */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860192056288900A2E13E /* libMobClickLibrary.a */,
+				6F88601A2056288900A2E13E /* MobClick.h */,
+				6F88601B2056288900A2E13E /* MobClickSocialAnalytics.h */,
+			);
+			path = Umeng;
+			sourceTree = "<group>";
+		};
+		6F88601C2056288900A2E13E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6F88601D2056288900A2E13E /* Localizable.strings */,
+				6F8860222056288900A2E13E /* ic_add_tab@2x.png */,
+				6F8860232056288900A2E13E /* ic_more_white@2x.png */,
+				6F8860262056288900A2E13E /* lanch@2x.png */,
+				6F8860272056288900A2E13E /* micro_small@2x.png */,
+				6F8860292056288900A2E13E /* save@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6F88602C2056288900A2E13E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6F8860302056288900A2E13E /* Common */,
+				6F8860372056288900A2E13E /* Controller */,
+				6F88603E2056288900A2E13E /* Model */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6F8860302056288900A2E13E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6F88602E2056288900A2E13E /* AppContext.h */,
+				6F88602F2056288900A2E13E /* AppContext.m */,
+				6F8860312056288900A2E13E /* NSDate+Conversion.h */,
+				6F8860322056288900A2E13E /* NSDate+Conversion.m */,
+				6F8860332056288900A2E13E /* UIColor+VNHex.h */,
+				6F8860342056288900A2E13E /* UIColor+VNHex.m */,
+				6F8860352056288900A2E13E /* VNConstants.h */,
+				6F8860362056288900A2E13E /* VNConstants.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		6F8860372056288900A2E13E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F88603C2056288900A2E13E /* NoteListController.h */,
+				6F88603D2056288900A2E13E /* NoteListController.m */,
+				6F8860382056288900A2E13E /* NoteDetailController.h */,
+				6F8860392056288900A2E13E /* NoteDetailController.m */,
+				6F88603A2056288900A2E13E /* NoteListCell.h */,
+				6F88603B2056288900A2E13E /* NoteListCell.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F88603E2056288900A2E13E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F88603F2056288900A2E13E /* NoteManager.h */,
+				6F8860402056288900A2E13E /* NoteManager.m */,
+				6F8860412056288900A2E13E /* VNNote.h */,
+				6F8860422056288900A2E13E /* VNNote.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F88605C205629D600A2E13E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F88606D20562B7F00A2E13E /* AudioToolbox.framework */,
+				6F88606B20562B2F00A2E13E /* libz.tbd */,
+				6F88606920562A3D00A2E13E /* CoreTelephony.framework */,
+				6F88606720562A2400A2E13E /* SystemConfiguration.framework */,
+				6F88606520562A1600A2E13E /* QuartzCore.framework */,
+				6F88606320562A0900A2E13E /* CoreLocation.framework */,
+				6F886061205629F600A2E13E /* AVFoundation.framework */,
+				6F88605F205629EA00A2E13E /* AddressBook.framework */,
+				6F88605D205629D600A2E13E /* Contacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F88606F20562C4600A2E13E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F885FF72056286700A2E13E /* Main.storyboard */,
+				6F885FFA2056286700A2E13E /* Assets.xcassets */,
+				6F885FFC2056286700A2E13E /* LaunchScreen.storyboard */,
+				6F885FFF2056286700A2E13E /* Info.plist */,
+				6F8860002056286700A2E13E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F885FED2056286700A2E13E /* VoiceNotepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8860042056286700A2E13E /* Build configuration list for PBXNativeTarget "VoiceNotepad" */;
+			buildPhases = (
+				6F885FEA2056286700A2E13E /* Sources */,
+				6F885FEB2056286700A2E13E /* Frameworks */,
+				6F885FEC2056286700A2E13E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceNotepad;
+			productName = VoiceNotepad;
+			productReference = 6F885FEE2056286700A2E13E /* VoiceNotepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F885FE62056286700A2E13E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = MaChat;
+				TargetAttributes = {
+					6F885FED2056286700A2E13E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F885FE92056286700A2E13E /* Build configuration list for PBXProject "VoiceNotepad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				fr,
+				it,
+				ja,
+				nl,
+				th,
+				"zh-Hans",
+			);
+			mainGroup = 6F885FE52056286700A2E13E;
+			productRefGroup = 6F885FEF2056286700A2E13E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F885FED2056286700A2E13E /* VoiceNotepad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F885FEC2056286700A2E13E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8860472056288A00A2E13E /* LICENSE.txt in Resources */,
+				6F885FFE2056286700A2E13E /* LaunchScreen.storyboard in Resources */,
+				6F885FFB2056286700A2E13E /* Assets.xcassets in Resources */,
+				6F8860502056288A00A2E13E /* lanch@2x.png in Resources */,
+				6F88604A2056288A00A2E13E /* SVProgressHUD.bundle in Resources */,
+				6F88604D2056288A00A2E13E /* Localizable.strings in Resources */,
+				6F88604F2056288A00A2E13E /* ic_more_white@2x.png in Resources */,
+				6F8860482056288A00A2E13E /* README.md in Resources */,
+				6F88604E2056288A00A2E13E /* ic_add_tab@2x.png in Resources */,
+				6F8860522056288A00A2E13E /* save@2x.png in Resources */,
+				6F8860512056288A00A2E13E /* micro_small@2x.png in Resources */,
+				6F8860452056288A00A2E13E /* README.md in Resources */,
+				6F8860442056288A00A2E13E /* LICENSE in Resources */,
+				6F885FF92056286700A2E13E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F885FEA2056286700A2E13E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8860572056288A00A2E13E /* NoteDetailController.m in Sources */,
+				6F8860532056288A00A2E13E /* AppContext.m in Sources */,
+				6F8860492056288A00A2E13E /* SVIndefiniteAnimatedView.m in Sources */,
+				6F8860012056286700A2E13E /* main.m in Sources */,
+				6F88605B2056288A00A2E13E /* VNNote.m in Sources */,
+				6F88605A2056288A00A2E13E /* NoteManager.m in Sources */,
+				6F885FF32056286700A2E13E /* AppDelegate.m in Sources */,
+				6F8860432056288A00A2E13E /* Colours.m in Sources */,
+				6F8860582056288A00A2E13E /* NoteListCell.m in Sources */,
+				6F8860542056288A00A2E13E /* NSDate+Conversion.m in Sources */,
+				6F8860552056288A00A2E13E /* UIColor+VNHex.m in Sources */,
+				6F8860592056288A00A2E13E /* NoteListController.m in Sources */,
+				6F88604B2056288A00A2E13E /* SVProgressHUD.m in Sources */,
+				6F8860562056288A00A2E13E /* VNConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F885FF72056286700A2E13E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F885FF82056286700A2E13E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6F885FFC2056286700A2E13E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F885FFD2056286700A2E13E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6F88601D2056288900A2E13E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F88601E2056288900A2E13E /* Base */,
+				6F88601F2056288900A2E13E /* en */,
+				6F8860202056288900A2E13E /* es */,
+				6F8860212056288900A2E13E /* fr */,
+				6F8860242056288900A2E13E /* it */,
+				6F8860252056288900A2E13E /* ja */,
+				6F8860282056288900A2E13E /* nl */,
+				6F88602A2056288900A2E13E /* th */,
+				6F88602B2056288900A2E13E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F8860022056286700A2E13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F8860032056286700A2E13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F8860052056286700A2E13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3HL5LLR8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceNotepad/Library/IFly",
+				);
+				INFOPLIST_FILE = VoiceNotepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceNotepad/Library/Umeng",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaChat.VoiceNotepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F8860062056286700A2E13E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3HL5LLR8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceNotepad/Library/IFly",
+				);
+				INFOPLIST_FILE = VoiceNotepad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceNotepad/Library/Umeng",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaChat.VoiceNotepad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F885FE92056286700A2E13E /* Build configuration list for PBXProject "VoiceNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8860022056286700A2E13E /* Debug */,
+				6F8860032056286700A2E13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8860042056286700A2E13E /* Build configuration list for PBXNativeTarget "VoiceNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8860052056286700A2E13E /* Debug */,
+				6F8860062056286700A2E13E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F885FE62056286700A2E13E /* Project object */;
+}

@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  Voice2Note
+
+  Created by liaojinxing on 14-6-11.
+  Copyright (c) 2014年 jinxing. All rights reserved.
+*/
+
+
+// Home
+"AppName" = "BlocNotasVoz";
+
+"HomeButtonItemMoreAction" = "Más";
+"HomeButtonItemListAction" = "Pasado";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "Sin resultado de reconocimiento";
+
+"ActionSheetCancel" = "Cancelar";
+"ActionSheetSave" = "Guardar";
+"ActionSheetCopy" = "Copia";
+"ActionSheetMail" = "E-mail";
+"ActionSheetWeixin" = "Comparte el círculo de amigos";
+
+"AddTitleForNote" = "Agregar un título a la nota?";
+"Sure" = "OK";
+
+"CopySuccess" = "Copiado al cartón";
+"DeleteFileSuccess" = "Eliminado con éxito";
+
+"SendEmailSuccess" = "El correo fue enviado exitosamente";
+"SendEmailFail" = "Entrega de correo fallida";
+"CanNoteSendMail" = "No se puede enviar el correo, verificar la configuración del dispositivo";
+
+"VoiceInput" = "Entrada de voz";
+"ImageInputTitle" = "Entrada de imagen";
+"ImageInputMessage" = "Elija una foto con texto, las notas vagas identificarán el texto en la imagen. Intenta utilizar una resolución más alta, imagen de fondo pura";
+"ImageInputCancel" = "Entendido";
+"ImageInputSure" = "Identificarlo";
+
+"SaveSuccess" = "Guardar con éxito";
+"SaveFail" = "Error de guardado";
+
+"InputViewTitle" = "Título";
+"InputViewText" = "Texto";
+"InputTextNoData" = "Por favor ingrese el texto";
+"NoTitleNote" = "Notas sin título";
+
+"Recognizing" = "Reconocido ...";
+"RecognizeFail" = "El reconocimiento del texto falló";
+
+
+// About
+"AboutTitle" = "About VoiceNotepad";
+"AboutText" = "BlocNotasVoz es una libreta de entrada de voz, fácil de usar. Solo necesita hablar, puede completar el registro del contenido y es un buen ayudante para su vida. Al mismo tiempo, es compatible con el correo electrónico, compartir con amigos y otras funciones.";
+
+// Address book
+"GotoUploadAB" = "Go to upload";
+"UploadABForBetter" = "Upload contacts, people can make voice recognition more accurate. Please be assured that the data uploaded is only used to improve the accuracy of speech recognition, for no other purpose";
+"form_note_email" = "A letter from the developer";

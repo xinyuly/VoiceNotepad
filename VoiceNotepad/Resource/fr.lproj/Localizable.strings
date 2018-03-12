@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Voice2Note
+
+  Created by liaojinxing on 14-6-11.
+  Copyright (c) 2014年 jinxing. All rights reserved.
+*/
+
+
+// Home
+"AppName" = "BNotesVocal";
+
+"HomeButtonItemMoreAction" = "Plus";
+"HomeButtonItemListAction" = "Passé";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "Aucun résultat de reconnaissance";
+
+"ActionSheetCancel" = "Annuler";
+"ActionSheetSave" = "Sauvegarder";
+"ActionSheetCopy" = "Copier";
+"ActionSheetMail" = "E-mail";
+"ActionSheetWeixin" = "Partager à un cercle d'amis";
+
+"AddTitleForNote" = "Ajouter un titre à la note?";
+"Sure" = "OK";
+
+"CopySuccess" = "Copié sur le carton";
+"DeleteFileSuccess" = "Supprimé avec succès";
+
+"SendEmailSuccess" = "Le mail a été envoyé avec succès";
+"SendEmailFail" = "Échec de la distribution";
+"CanNoteSendMail" = "Impossible d'envoyer le courrier, vérifiez les paramètres de l'appareil";
+
+"VoiceInput" = "Entrée vocale";
+"ImageInputTitle" = "Entrée d'image";
+"ImageInputMessage" = "Choisissez une photo avec du texte, des notes paresseuses identifieront le texte dans l'image. S'il vous plaît essayez d'utiliser une résolution plus élevée, une image de fond pure";
+"ImageInputCancel" = "J'ai compris";
+"ImageInputSure" = "Identifiez-le";
+
+"SaveSuccess" = "Enregistrer avec succès";
+"SaveFail" = "Enregistrer a échoué";
+
+"InputViewTitle" = "Titre";
+"InputViewText" = "Texte";
+"InputTextNoData" = "Merci d'entrer le texte";
+"NoTitleNote" = "Notes sans titre";
+
+"Recognizing" = "Recognized ...";
+"RecognizeFail" = "Recognition of text failed";
+
+// About
+"AboutTitle" = "About VoiceNotepad";
+"AboutText" = "VoiceNotepad is a voice input notepad, easy to use. You only need to talk, you can complete the record of the content is a good helper for your life. \n At the same time support e-mail, share to friends and other functions.";
+
+// Address book
+"GotoUploadAB" = "Go to upload";
+"UploadABForBetter" = "Upload contacts, people can make voice recognition more accurate. Please be assured that the data uploaded is only used to improve the accuracy of speech recognition, for no other purpose";
+"form_note_email" = "A letter from the developer";

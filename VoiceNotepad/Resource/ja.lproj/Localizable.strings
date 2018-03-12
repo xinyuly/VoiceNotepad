@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Voice2Note
+
+  Created by liaojinxing on 14-6-11.
+  Copyright (c) 2014年 jinxing. All rights reserved.
+*/
+
+
+// Home
+"AppName" = "VoiceNotepad";
+
+"HomeButtonItemMoreAction" = "もっと";
+"HomeButtonItemListAction" = "過去";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "認識結果なし";
+
+"ActionSheetCancel" = "キャンセル";
+"ActionSheetSave" = "保存する";
+"ActionSheetCopy" = "コピー";
+"ActionSheetMail" = "Eメール";
+"ActionSheetWeixin" = "友だちサークルに共有";
+
+"AddTitleForNote" = "メモにメモを追加しますか？";
+"Sure" = "OK";
+
+"CopySuccess" = "ペーストボードにコピーされた";
+"DeleteFileSuccess" = "正常に削除されました";
+
+"SendEmailSuccess" = "メールが正常に送信されました";
+"SendEmailFail" = "メールの配信に失敗しました";
+"CanNoteSendMail" = "メールを送信できない、デバイスの設定を確認する";
+
+"VoiceInput" = "音声入力";
+"ImageInputTitle" = "画像入力";
+"ImageInputMessage" = "テキスト付きの写真を選択すると、レイジーノートが写真のテキストを識別します。 より高い解像度、純粋な背景画像を使用してみてください";
+"ImageInputCancel" = "それを得た";
+"ImageInputSure" = "それを特定する";
+
+"SaveSuccess" = "保存に成功しました";
+"SaveFail" = "保存に失敗しました";
+
+"InputViewTitle" = "タイトル";
+"InputViewText" = "テキスト";
+"InputTextNoData" = "テキストを入力してください";
+"NoTitleNote" = "無題のメモ";
+
+"Recognizing" = "認識された...";
+"RecognizeFail" = "テキストの認識に失敗しました";
+
+// About
+"AboutTitle" = "ノートについて";
+"AboutText" = "VoiceNotepad は、记一语录音输入记记记述、简単易使用。あなたは、あなたの声を聞いて、あなたの声を聞くことができます。";
+
+// Address book
+"GotoUploadAB" = "アップロードする";
+"UploadABForBetter" = "連絡先をアップロードすると、人々は音声認識をより正確にすることができます。 アップロードされたデータは、音声認識の正確さを向上させるためにのみ使用されていることを確認してください。";
+"form_note_email" = "開発者からの手紙";

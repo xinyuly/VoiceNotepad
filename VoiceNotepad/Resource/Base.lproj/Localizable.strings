@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  Voice2Note
+
+  Created by liaojinxing on 14-6-11.
+  Copyright (c) 2014年 jinxing. All rights reserved.
+*/
+
+
+// Home
+"AppName" = "VoiceNotepad";
+
+"HomeButtonItemMoreAction" = "more";
+"HomeButtonItemListAction" = "Past";
+
+"TextPlaceHolder" = "";
+"SpeechNoResult" = "No recognition result";
+
+"ActionSheetCancel" = "Cancel";
+"ActionSheetSave" = "SAVE";
+"ActionSheetCopy" = "COPY";
+"ActionSheetMail" = "Send email";
+"ActionSheetWeixin" = "Share to friends";
+
+"AddTitleForNote" = "Add a title to the note?";
+"Sure" = "Confirm";
+
+"CopySuccess" = "Success";
+"DeleteFileSuccess" = "Successfully Deleted";
+
+"SendEmailSuccess" = "Successfully";
+"SendEmailFail" = "Failed";
+"CanNoteSendMail" = "Unable to send mail, check device settings.";
+
+"VoiceInput" = "Voice input";
+"ImageInputTitle" = "Picture input";
+"ImageInputMessage" = "Choose a photo with text, VoiceNotepad will identify the text in the picture. Please try to use a higher resolution, pure background image";
+"ImageInputCancel" = "OK";
+"ImageInputSure" = "Identify it";
+
+"SaveSuccess" = "Saved successfully";
+"SaveFail" = "Save failed";
+
+"InputViewTitle" = "Title";
+"InputViewText" = "Content";
+"InputTextNoData" = "Please enter text";
+"NoTitleNote" = "Untitled notes";
+
+"Recognizing" = "Recognized ...";
+"RecognizeFail" = "Recognition of text failed";
+
+// About
+"AboutTitle" = "About VoiceNotepad";
+"AboutText" = "VoiceNotepad is a voice input notepad, easy to use. You only need to talk, you can complete the record of the content is a good helper for your life. \n At the same time support e-mail, share to friends and other functions.";
+
+// Address book
+"GotoUploadAB" = "Go to upload";
+"UploadABForBetter" = "Upload contacts, people can make voice recognition more accurate. Please be assured that the data uploaded is only used to improve the accuracy of speech recognition, for no other purpose";
+"form_note_email" = "A letter from the developer";
